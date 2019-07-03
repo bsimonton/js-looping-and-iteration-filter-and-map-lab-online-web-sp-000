@@ -35,7 +35,7 @@ function exactMatch(drivers, attr){
 
 
 
-function ExactMatchToList(drivers, attr){
+function exactMatchToList(drivers, attr){
   
   return exactMatch(drivers, attr).map(function(match){
     
