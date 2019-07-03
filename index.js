@@ -36,10 +36,11 @@ function exactMatch(drivers, attr){
 
 
 function ExactMatchToList(drivers, attr){
+  
   return exactMatch(drivers, attr).map(function(match){
     
     
-    return match.name;
+    return match.name
   });
   
   
