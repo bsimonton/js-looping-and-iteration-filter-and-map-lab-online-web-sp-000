@@ -47,10 +47,5 @@ function ExactMatchToList(drivers, attr){
 }
 
 
-function exactMatchToList(array, attr) {
-    return exactMatch(array, attr).map(function(match) {
-        return match.name;
-    });
-} 
 
 
